@@ -1,0 +1,30 @@
+{
+  "consumer": {
+    "name": "MyMessageConsumer"
+  },
+  "provider": {
+    "name": "MyMessageProvider"
+  },
+  "messages": [
+    {
+      "description": "A description",
+      "providerStates": [
+        {
+          "name": "A state",
+          "params": {
+          }
+        }
+      ],
+      "contents": {
+        "key": "value"
+      },
+      "matchingRules": {
+      }
+    }
+  ],
+  "metadata": {
+    "pactSpecification": {
+      "version": "2.0.0"
+    }
+  }
+}
