@@ -1,2 +1,4 @@
 .idea
+consumer/log/pact.log
+provider/log/pact.log
 

@@ -1,5 +1,0 @@
-# Logfile created on 2021-06-28 16:53:01 +0200 by logger.rb/66358
-I, [2021-06-28T16:53:01.041067 #1296655]  INFO -- : Clearing all expectations
-I, [2021-06-28T16:53:01.041146 #1296655]  INFO -- : Verifying interactions for DB schema 
-I, [2021-06-28T16:54:16.423821 #1297249]  INFO -- : Clearing all expectations
-I, [2021-06-28T16:54:16.425051 #1297249]  INFO -- : Verifying interactions for DB schema is expected not to be empty

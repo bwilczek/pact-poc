@@ -12,7 +12,19 @@ Pact.message_provider 'MyMessageProvider' do
     pact_uri ENV['PACTFILE_URI']
   end
 
-  builder do |message_description|
-    { key: 'value' }
+  builder do |_message_description|
+    {
+      table1: {
+        field11: :string,
+        field12: :integer,
+        field13: :boolean
+      },
+      table2: {
+        field21: :string,
+        field22: :text,
+        field23: :float,
+        field24: :decimal
+      }
+    }
   end
 end

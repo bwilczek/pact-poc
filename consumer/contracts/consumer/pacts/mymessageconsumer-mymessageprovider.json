@@ -16,9 +16,23 @@
         }
       ],
       "contents": {
-        "key": "value"
+        "table1": {
+          "field11": "string",
+          "field12": "integer",
+          "field13": "boolean"
+        },
+        "table2": {
+          "field21": "string",
+          "field22": "text",
+          "field23": "float"
+        }
       },
       "matchingRules": {
+        "body": {
+          "$": {
+            "match": "type"
+          }
+        }
       }
     }
   ],
